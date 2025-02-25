@@ -61,11 +61,19 @@ Projenin bir parçası olarak, Tabut Ev ve Perili Ev'in iç ve dış mekanları 
   },
   {
     id: 2,
-    title: "Proje 2",
-    description: "Proje 2 açıklaması.",
+    title: "Tarihi Osmanlı Çeşmesi Restorasyon Projesi",
+    description: "18. yüzyıldan kalma tarihi Osmanlı çeşmesinin detaylı belgeleme ve restorasyon çalışması.",
     year: "2020",
-    location: "İstanbul",
-    image: "/projeler/proje2.jpg"
+    location: "İstanbul, Üsküdar",
+    image: "/projeler/proje2.jpg",
+    detailDescription: `Üsküdar'ın tarihi dokusunun önemli bir parçası olan bu 18. yüzyıl Osmanlı çeşmesi, uzun yıllar boyunca ihmal edilmiş durumdaydı. Restorasyon projemiz, bu değerli kültür varlığını gelecek nesillere aktarmayı hedefledi.
+
+Çeşmenin orijinal taş işçiliği, kitabesi ve süslemeleri detaylı bir şekilde belgelendi. Yapının strüktürel sorunları tespit edildi ve müdahale yöntemleri belirlendi. Restorasyon sürecinde, geleneksel yapım teknikleri ve malzemeler kullanılarak, çeşmenin özgün karakteri korundu.
+
+3D tarama teknolojisi kullanılarak yapının her detayı dijital ortama aktarıldı. Bu sayede, gelecekte yapılabilecek müdahaleler için değerli bir belgeleme arşivi oluşturuldu. Aynı zamanda, bu dijital model sayesinde restorasyon öncesi ve sonrası durumun karşılaştırılması mümkün oldu.
+
+Proje kapsamında çeşmenin su sistemi de yenilendi ve tekrar işlevsel hale getirildi. Böylece tarihi çeşme, hem estetik değerini hem de asıl işlevini geri kazandı.`,
+    iframe: `<div class="sketchfab-embed-wrapper"> <iframe title="Old Historical Fountain." frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/52d55ec7e47f43c1921baa2bbc6448b2/embed?autostart=1"> </iframe> </div>`
   },
   {
     id: 3,
