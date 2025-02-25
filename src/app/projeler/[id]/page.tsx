@@ -34,10 +34,14 @@ export default function ProjeDetay({ params }: ProjeDetayProps) {
   const id = parseInt(params.id);
   const proje = projeler.find((p) => p.id === id);
 
+  // WhatsApp bağlantısı için telefon numarasını formatlıyoruz
+  const phoneNumber = "905446932627";
+  const whatsappUrl = `https://wa.me/${phoneNumber}`;
+
   // Proje bulunamazsa 404 sayfasına yönlendir
   if (!proje) {
     notFound();
   }
 
-  return <ProjeDetayClient proje={proje} />;
+  return <ProjeDetayClient proje={proje} whatsappUrl={whatsappUrl} />;
 } 
