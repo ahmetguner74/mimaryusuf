@@ -30,7 +30,7 @@ export default function ProjectsPage() {
       <section className="py-16">
         <div className="container-custom">
           <p className="text-lg text-gray-600 mb-8">
-            Mimar Yusuf Özdamar'ın seçkin projeleri, modern mimari ile geleneksel değerleri harmanlayan özgün tasarımlar sunmaktadır.
+            Mimar Yusuf Özdamar&apos;ın seçkin projeleri, modern mimari ile geleneksel değerleri harmanlayan özgün tasarımlar sunmaktadır.
           </p>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

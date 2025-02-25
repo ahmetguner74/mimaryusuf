@@ -35,7 +35,7 @@ export default function AboutPage() {
                 Kariyerinin en önemli dönüm noktası, 1993-1995 yılları arasında büyük usta Turgut Cansever ile çalışma fırsatı bulması olmuştur. Bu deneyim, onun mimari anlayışını derinden etkilemiş ve mimarlığın sadece bina yapmaktan ibaret olmadığını, kültürel ve tarihi sorumluluğu olan bir meslek olduğunu kavramasını sağlamıştır.
               </p>
               <p className="text-lg leading-relaxed">
-                1995-1998 yılları arasında Yapı Donatım AŞ'de mimar olarak görev yapan Özdamar, 1999'dan bu yana bağımsız mimar olarak çalışmalarını sürdürmekte, geleneksel değerleri modern anlayışla birleştiren projeler geliştirmeye devam etmektedir.
+                1995-1998 yılları arasında Yapı Donatım AŞ&apos;de mimar olarak görev yapan Özdamar, 1999&apos;dan bu yana bağımsız mimar olarak çalışmalarını sürdürmekte, geleneksel değerleri modern anlayışla birleştiren projeler geliştirmeye devam etmektedir.
               </p>
             </div>
             <div className="bg-gray-200 h-[600px] flex items-center justify-center overflow-hidden rounded-lg">
