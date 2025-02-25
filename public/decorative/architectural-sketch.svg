@@ -1,6 +1,6 @@
 <svg width="1200" height="1200" xmlns="http://www.w3.org/2000/svg">
   <!-- Mimari Plan Çizgileri -->
-  <g stroke="#333333" stroke-width="0.2" opacity="0.04" fill="none">
+  <g stroke="#333333" stroke-width="0.5" opacity="0.15" fill="none">
     <!-- Bina dış çizgisi -->
     <rect x="200" y="300" width="800" height="600" />
     
@@ -34,7 +34,7 @@
   </g>
   
   <!-- Eskiz Çizgileri -->
-  <g stroke="#333333" stroke-width="0.1" opacity="0.03" fill="none">
+  <g stroke="#333333" stroke-width="0.3" opacity="0.12" fill="none">
     <!-- El çizimi etkisi için düzensiz çizgiler -->
     <path d="M100,150 C150,100 250,200 300,150 S350,50 400,100 S450,150 500,120" />
     <path d="M600,180 C650,140 700,200 750,170 S800,120 850,150 S900,180 950,150" />
@@ -56,7 +56,7 @@
   </g>
   
   <!-- Mimari Perspektif Çizgileri -->
-  <g stroke="#333333" stroke-width="0.15" opacity="0.025" fill="none">
+  <g stroke="#333333" stroke-width="0.4" opacity="0.1" fill="none">
     <!-- Perspektif çizgileri -->
     <line x1="400" y1="100" x2="600" y2="1100" />
     <line x1="800" y1="100" x2="600" y2="1100" />
@@ -65,7 +65,7 @@
   </g>
   
   <!-- Ölçü Çizgileri -->
-  <g stroke="#333333" stroke-width="0.2" opacity="0.03" stroke-dasharray="5,5" fill="none">
+  <g stroke="#333333" stroke-width="0.4" opacity="0.12" stroke-dasharray="5,5" fill="none">
     <line x1="100" y1="200" x2="1100" y2="200" />
     <line x1="100" y1="200" x2="100" y2="220" />
     <line x1="1100" y1="200" x2="1100" y2="220" />

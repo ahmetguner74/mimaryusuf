@@ -24,7 +24,7 @@ export default function Home() {
           </Parallax>
           
           {/* Decorative architectural lines in background */}
-          <div className="absolute inset-0 opacity-10 pointer-events-none">
+          <div className="absolute inset-0 opacity-20 pointer-events-none z-0">
             <Parallax speed={-5}>
               <div className="w-full h-full" style={{
                 backgroundImage: `url('/decorative/grid-lines.svg')`,
@@ -38,7 +38,7 @@ export default function Home() {
         {/* About Section with Parallax */}
         <section className="py-20 px-4 md:px-8 max-w-5xl mx-auto relative overflow-hidden">
           {/* Mimari eskiz arka planı */}
-          <div className="absolute inset-0 opacity-10 pointer-events-none">
+          <div className="absolute inset-0 opacity-20 pointer-events-none z-0">
             <Parallax speed={-3}>
               <div className="w-full h-full" style={{
                 backgroundImage: `url('/decorative/architectural-sketch.svg')`,
@@ -85,7 +85,7 @@ export default function Home() {
         {/* Projects Section with Parallax */}
         <section className="py-20 px-4 md:px-8 bg-white relative overflow-hidden">
           {/* Mimari eskiz arka planı */}
-          <div className="absolute inset-0 opacity-10 pointer-events-none">
+          <div className="absolute inset-0 opacity-20 pointer-events-none z-0">
             <Parallax speed={-2}>
               <div className="w-full h-full" style={{
                 backgroundImage: `url('/decorative/grid-lines.svg')`,
@@ -141,7 +141,7 @@ export default function Home() {
         {/* Quote Section with Parallax */}
         <section className="py-20 px-4 md:px-8 bg-gray-100 relative overflow-hidden">
           {/* Mimari eskiz arka planı */}
-          <div className="absolute inset-0 opacity-10 pointer-events-none">
+          <div className="absolute inset-0 opacity-20 pointer-events-none z-0">
             <Parallax speed={-4}>
               <div className="w-full h-full" style={{
                 backgroundImage: `url('/decorative/architectural-sketch.svg')`,
