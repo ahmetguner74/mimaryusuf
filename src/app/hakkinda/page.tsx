@@ -5,7 +5,7 @@ import { deneyimler } from "../utils/data";
 
 export const metadata = {
   title: "Hakkında | Mimar Yusuf Özdamar",
-  description: "Mimar Yusuf Özdamar'ın özgeçmişi, deneyimleri ve mimari yaklaşımı hakkında bilgiler."
+  description: "Mimar Yusuf Özdamar&apos;ın özgeçmişi, deneyimleri ve mimari yaklaşımı hakkında bilgiler."
 };
 
 export default function AboutPage() {
@@ -29,7 +29,7 @@ export default function AboutPage() {
             <div>
               <h2 className="text-2xl font-light mb-6">BİYOGRAFİ</h2>
               <p className="text-lg leading-relaxed mb-6">
-                Mimar Yusuf Özdamar, Türk mimarlık dünyasının değerli isimlerinden biridir. 1993 yılında Turgut Cansever Mimarlık'ta çizim elemanı olarak başladığı kariyerinde, Türk mimarlık geleneğini modern çizgilerle buluşturan çalışmalarda bulunmuştur.
+                Mimar Yusuf Özdamar, Türk mimarlık dünyasının değerli isimlerinden biridir. 1993 yılında Turgut Cansever Mimarlık&apos;ta çizim elemanı olarak başladığı kariyerinde, Türk mimarlık geleneğini modern çizgilerle buluşturan çalışmalarda bulunmuştur.
               </p>
               <p className="text-lg leading-relaxed mb-6">
                 Kariyerinin en önemli dönüm noktası, 1993-1995 yılları arasında büyük usta Turgut Cansever ile çalışma fırsatı bulması olmuştur. Bu deneyim, onun mimari anlayışını derinden etkilemiş ve mimarlığın sadece bina yapmaktan ibaret olmadığını, kültürel ve tarihi sorumluluğu olan bir meslek olduğunu kavramasını sağlamıştır.
@@ -80,18 +80,18 @@ export default function AboutPage() {
           <h2 className="text-2xl font-light mb-8">MİMARİ YAKLAŞIM</h2>
           <div className="bg-white p-8 shadow-sm rounded-lg">
             <p className="text-lg leading-relaxed mb-6">
-              Yusuf Özdamar'ın mimari yaklaşımı, geleneksel değerleri modern tekniklerle buluşturma üzerine kuruludur. Mimarlığın sadece bir bina tasarlamaktan ibaret olmadığını, insan ve çevre ile uyumlu mekânlar yaratmanın önemine inanmaktadır.
+              Yusuf Özdamar&apos;ın mimari yaklaşımı, geleneksel değerleri modern tekniklerle buluşturma üzerine kuruludur. Mimarlığın sadece bir bina tasarlamaktan ibaret olmadığını, insan ve çevre ile uyumlu mekânlar yaratmanın önemine inanmaktadır.
             </p>
             <p className="text-lg leading-relaxed mb-6">
-              Turgut Cansever'in etkisiyle, mimarinin kültürel ve tarihsel bağlamını her zaman göz önünde bulundurmaktadır. Her projesinde, o mekânın kullanıcılarının ihtiyaçlarını ve konforu ön planda tutarken, estetik değerleri de ihmal etmemektedir.
+              Turgut Cansever&apos;in etkisiyle, mimarinin kültürel ve tarihsel bağlamını her zaman göz önünde bulundurmaktadır. Her projesinde, o mekânın kullanıcılarının ihtiyaçlarını ve konforu ön planda tutarken, estetik değerleri de ihmal etmemektedir.
             </p>
             <p className="text-lg leading-relaxed">
-              "Mimarlık sadece görsel bir sanat değil, aynı zamanda insanların yaşam kalitesini doğrudan etkileyen sosyal bir sorumluluktur" düşüncesiyle hareket eden Özdamar, sürdürülebilir ve çevreye duyarlı tasarımları desteklemektedir.
+              &quot;Mimarlık sadece görsel bir sanat değil, aynı zamanda insanların yaşam kalitesini doğrudan etkileyen sosyal bir sorumluluktur&quot; düşüncesiyle hareket eden Özdamar, sürdürülebilir ve çevreye duyarlı tasarımları desteklemektedir.
             </p>
           </div>
           <div className="mt-12 text-center">
             <blockquote className="text-xl italic mb-4">
-              "İyi mimarlık, bir toplumun kültürel değerlerini ve yaşam tarzını yansıtmalıdır."
+              &quot;İyi mimarlık, bir toplumun kültürel değerlerini ve yaşam tarzını yansıtmalıdır.&quot;
             </blockquote>
             <p className="text-right text-gray-600">— Yusuf Özdamar</p>
           </div>

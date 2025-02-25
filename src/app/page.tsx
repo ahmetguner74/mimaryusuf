@@ -55,7 +55,7 @@ export default function Home() {
             <Parallax speed={10}>
               <div>
                 <p className="text-lg leading-relaxed mb-6">
-                  Mimar Yusuf Özdamar, Turgut Cansever ile çalışma fırsatı bulmuş, Türk mimarlık geleneğinin önemli temsilcilerinden biridir. Üsküdar Belediyesi ve Nuhoğlu İnşaat'ta görev yapmış olan Özdamar, mimarlığın sadece bina yapmaktan ibaret olmadığını, aynı zamanda kültürel ve tarihi sorumluluğu olan bir meslek olduğunu savunmaktadır.
+                  Mimar Yusuf Özdamar, Turgut Cansever ile çalışma fırsatı bulmuş, Türk mimarlık geleneğinin önemli temsilcilerinden biridir. Üsküdar Belediyesi ve Nuhoğlu İnşaat&apos;ta görev yapmış olan Özdamar, mimarlığın sadece bina yapmaktan ibaret olmadığını, aynı zamanda kültürel ve tarihi sorumluluğu olan bir meslek olduğunu savunmaktadır.
                 </p>
                 <p className="text-lg leading-relaxed mb-6">
                   Mimarlık kariyeri boyunca, geleneksel değerleri modern anlayışla birleştirerek özgün projeler geliştiren Özdamar, mimarinin insan ve çevre ile uyumlu olması gerektiğini vurgulamaktadır.
@@ -160,7 +160,7 @@ export default function Home() {
               <Parallax key={index} speed={10}>
                 <div className="mb-12 last:mb-0">
                   <blockquote className="text-xl italic mb-8">
-                    "{kesit.alinti}"
+                    &quot;{kesit.alinti}&quot;
                   </blockquote>
                   <p className="text-right text-gray-600">— {kesit.kaynak}</p>
                 </div>

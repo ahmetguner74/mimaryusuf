@@ -29,8 +29,8 @@ export default function ProjectsPage() {
       {/* Projects Grid */}
       <section className="py-16">
         <div className="container-custom">
-          <p className="text-lg mb-12 max-w-3xl">
-            Mimar Yusuf Özdamar'ın geleneksel değerleri modern çizgilerle birleştiren, insan ve çevre odaklı tasarım anlayışını yansıtan projeleri.
+          <p className="text-lg text-gray-600 mb-8">
+            Mimar Yusuf Özdamar'ın seçkin projeleri, modern mimari ile geleneksel değerleri harmanlayan özgün tasarımlar sunmaktadır.
           </p>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
