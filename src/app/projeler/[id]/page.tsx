@@ -1,7 +1,5 @@
 import React from "react";
-import Image from "next/image";
-import Link from "next/link";
-import { projeler } from "../../utils/data";
+import { Proje, projeler } from "../../utils/data";
 import { notFound } from "next/navigation";
 import ProjeDetayClient from "./ProjeDetayClient";
 
