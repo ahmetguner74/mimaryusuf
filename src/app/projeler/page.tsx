@@ -1,12 +1,10 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { projeler } from "../utils/data";
-
-export const metadata = {
-  title: "Projeler | Mimar Yusuf Özdamar",
-  description: "Mimar Yusuf Özdamar'ın öne çıkan projeleri ve mimari çalışmaları."
-};
+import Menu from "../components/Menu";
 
 export default function ProjectsPage() {
   // WhatsApp bağlantısı için telefon numarasını formatlıyoruz
@@ -15,6 +13,8 @@ export default function ProjectsPage() {
 
   return (
     <div className="min-h-screen bg-gray-50 text-gray-800">
+      <Menu />
+      
       {/* Header */}
       <header className="bg-white py-8 shadow-sm">
         <div className="container-custom">
@@ -36,7 +36,7 @@ export default function ProjectsPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projeler.map((project) => (
               <Link href={`/projeler/${project.id}`} key={project.id} className="block">
-                <div className="bg-white p-6 shadow-sm hover:shadow-md transition duration-300">
+                <div className="bg-white p-6 shadow-sm hover:shadow-lg transition-all duration-300 group">
                   <div className="bg-gray-200 h-60 mb-6 flex items-center justify-center overflow-hidden">
                     {project.image ? (
                       <Image
@@ -44,7 +44,7 @@ export default function ProjectsPage() {
                         alt={project.title}
                         width={400}
                         height={300}
-                        className="object-cover w-full h-full"
+                        className="object-cover w-full h-full transform transition-transform duration-500 group-hover:scale-105"
                       />
                     ) : (
                       <p className="text-gray-500 italic">Proje Görseli</p>

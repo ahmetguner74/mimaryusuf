@@ -1,16 +1,16 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { deneyimler } from "../utils/data";
-
-export const metadata = {
-  title: "Hakkında | Mimar Yusuf Özdamar",
-  description: "Mimar Yusuf Özdamar&apos;ın özgeçmişi, deneyimleri ve mimari yaklaşımı hakkında bilgiler."
-};
+import Menu from "../components/Menu";
 
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-800">
+      <Menu />
+      
       {/* Header */}
       <header className="bg-white py-8 shadow-sm">
         <div className="container-custom">

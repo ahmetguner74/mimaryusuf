@@ -70,7 +70,7 @@ export default function ProjeDetayClient({ proje, whatsappUrl }: ProjeDetayClien
               <div className="flex flex-wrap gap-4">
                 {proje.image && proje.image !== "/projeler/proje1.jpg" ? (
                   <div 
-                    className="w-60 h-60 bg-gray-200 rounded cursor-pointer hover:opacity-90 transition duration-300 shadow-md overflow-hidden"
+                    className="w-60 h-60 bg-gray-200 rounded cursor-pointer overflow-hidden group relative shadow-md hover:shadow-xl transition-all duration-300"
                     onClick={() => setShowImageModal(true)}
                   >
                     <Image
@@ -78,8 +78,9 @@ export default function ProjeDetayClient({ proje, whatsappUrl }: ProjeDetayClien
                       alt={proje.title}
                       width={240}
                       height={240}
-                      className="object-cover w-full h-full"
+                      className="object-cover w-full h-full transform transition-transform duration-500 group-hover:scale-110"
                     />
+                    <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300"></div>
                   </div>
                 ) : (
                   <p className="text-gray-500 italic">Proje Görseli</p>

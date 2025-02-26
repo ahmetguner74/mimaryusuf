@@ -122,6 +122,18 @@ export interface RoportajKesiti {
 export const roportajKesitleri: RoportajKesiti[] = [
   {
     alinti: "Turgut Bey ile geçirdiğim zaman, bana mimarlığın bir bina yapmaktan çok daha öte bir sorumluluk olduğunu öğretti.",
-    kaynak: "Yusuf Özdamar, Mimarhane Röportajı"
+    kaynak: "Mimarhane Röportajı"
+  },
+  {
+    alinti: "Mimarlık, toplumun kültürel değerlerini ve yaşam biçimini yansıtmalı, geçmişle gelecek arasında köprü kurmalıdır.",
+    kaynak: "Mimarhane Röportajı"
+  },
+  {
+    alinti: "Her projenin kendine has bir ruhu vardır. Önemli olan o ruhu keşfedip, doğru şekilde yansıtabilmektir.",
+    kaynak: "Mimarhane Röportajı"
+  },
+  {
+    alinti: "Geleneksel mimarimiz, sürdürülebilirlik ve çevre uyumu konusunda bizlere çok değerli dersler sunuyor.",
+    kaynak: "Mimarhane Röportajı"
   }
 ]; 
