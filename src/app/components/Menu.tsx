@@ -32,11 +32,40 @@ export default function Menu() {
       {/* Menü Butonu */}
       <button 
         onClick={() => setIsMenuOpen(!isMenuOpen)} 
-        className="fixed top-8 right-8 z-50 w-10 h-10 flex flex-col justify-center items-center gap-1.5 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300"
+        className={`
+          fixed top-8 right-8 z-50 
+          w-12 h-12 
+          flex flex-col justify-center items-center gap-1.5 
+          bg-white/80 backdrop-blur-sm
+          rounded-full 
+          shadow-lg hover:shadow-xl
+          transition-all duration-300
+          hover:scale-110
+          group
+          border border-gray-100
+        `}
       >
-        <span className={`w-5 h-0.5 bg-gray-800 transition-all duration-300 ${isMenuOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
-        <span className={`w-5 h-0.5 bg-gray-800 transition-all duration-300 ${isMenuOpen ? 'opacity-0' : ''}`}></span>
-        <span className={`w-5 h-0.5 bg-gray-800 transition-all duration-300 ${isMenuOpen ? '-rotate-45 -translate-y-2' : ''}`}></span>
+        <span className={`
+          w-5 h-0.5 
+          bg-gray-800 
+          transition-all duration-300 ease-in-out
+          group-hover:w-6
+          ${isMenuOpen ? 'rotate-45 translate-y-2' : ''}
+        `}></span>
+        <span className={`
+          w-5 h-0.5 
+          bg-gray-800 
+          transition-all duration-300 ease-in-out
+          group-hover:w-4
+          ${isMenuOpen ? 'opacity-0' : ''}
+        `}></span>
+        <span className={`
+          w-5 h-0.5 
+          bg-gray-800 
+          transition-all duration-300 ease-in-out
+          group-hover:w-6
+          ${isMenuOpen ? '-rotate-45 -translate-y-2' : ''}
+        `}></span>
       </button>
 
       {/* Karartma Overlay'i */}

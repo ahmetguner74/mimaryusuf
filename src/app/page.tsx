@@ -6,6 +6,7 @@ import { oneCikanProjeler, roportajKesitleri } from "./utils/data";
 import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
 import Menu from "./components/Menu";
 import { useState, useEffect } from "react";
+import RulesIcon from "./components/RulesIcon";
 
 export default function Home() {
   const [currentQuoteIndex, setCurrentQuoteIndex] = useState(0);
@@ -61,20 +62,14 @@ export default function Home() {
           {showScroll && (
             <div 
               onClick={scrollToContent}
-              className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce cursor-pointer hover:opacity-75 transition-opacity"
+              className="absolute bottom-10 left-2/2 transform -translate-x-2/2 flex flex-col items-center cursor-pointer hover:opacity-50 transition-opacity animate-bounce"
             >
               <p className="text-sm text-gray-500 mb-2 font-light">KEŞFET</p>
-              <svg 
-                className="w-6 h-6 text-gray-500"
-                fill="none" 
-                strokeLinecap="round" 
-                strokeLinejoin="round" 
-                strokeWidth="2" 
-                viewBox="0 0 24 24" 
-                stroke="currentColor"
-              >
-                <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
-              </svg>
+              <RulesIcon 
+                width={60} 
+                height={60} 
+                className="transform transition-transform duration-500 hover:scale-110"
+              />
             </div>
           )}
 

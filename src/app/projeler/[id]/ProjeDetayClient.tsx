@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Proje, projeler } from "../../utils/data";
+import BeforeAfterSlider from "../../components/BeforeAfterSlider";
 
 // Proje detay client bileşeni için props tipi
 interface ProjeDetayClientProps {
@@ -46,6 +47,19 @@ export default function ProjeDetayClient({ proje, whatsappUrl }: ProjeDetayClien
               </div>
             )}
 
+            {/* Before-After Slider */}
+            {proje.beforeAfterImages && (
+              <div className="mb-16">
+                <h2 className="text-2xl font-light mb-6">KARŞILAŞTIRMALI ANALİZ</h2>
+                <BeforeAfterSlider
+                  beforeImage={proje.beforeAfterImages.before}
+                  afterImage={proje.beforeAfterImages.after}
+                  beforeLabel={proje.beforeAfterImages.beforeLabel}
+                  afterLabel={proje.beforeAfterImages.afterLabel}
+                />
+              </div>
+            )}
+
             {/* Proje Bilgileri */}
             <div className="grid md:grid-cols-4 gap-8 mb-12">
               <div>
@@ -66,7 +80,7 @@ export default function ProjeDetayClient({ proje, whatsappUrl }: ProjeDetayClien
             <div className="mb-16">
               <h2 className="text-2xl font-light mb-6">PROJE GÖRSELİ</h2>
               <div className="flex flex-wrap gap-4">
-                {proje.image && proje.image !== "/projeler/proje1.jpg" ? (
+                {proje.image ? (
                   <div 
                     className="w-60 h-60 bg-gray-200 rounded cursor-pointer overflow-hidden group relative shadow-md hover:shadow-xl transition-all duration-300"
                     onClick={() => setShowImageModal(true)}
@@ -102,7 +116,28 @@ export default function ProjeDetayClient({ proje, whatsappUrl }: ProjeDetayClien
           </div>
 
           <div className="border-t border-gray-200 pt-12">
-            <h2 className="text-2xl font-light mb-6">DİĞER PROJELER</h2>
+            <div className="flex items-center justify-between mb-6">
+              <h2 className="text-2xl font-light">DİĞER PROJELER</h2>
+              <Link 
+                href="/projeler" 
+                className="text-gray-600 hover:text-gray-900 transition-colors duration-300 flex items-center gap-2 group"
+              >
+                Tüm Projeleri Gör
+                <svg 
+                  className="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" 
+                  fill="none" 
+                  viewBox="0 0 24 24" 
+                  stroke="currentColor"
+                >
+                  <path 
+                    strokeLinecap="round" 
+                    strokeLinejoin="round" 
+                    strokeWidth={2} 
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </Link>
+            </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {projeler
                 .filter((p) => p.id !== proje.id)
@@ -111,7 +146,7 @@ export default function ProjeDetayClient({ proje, whatsappUrl }: ProjeDetayClien
                   <Link href={`/projeler/${digerProje.id}`} key={digerProje.id} className="block">
                     <div className="bg-white p-6 shadow-sm hover:shadow-md transition duration-300">
                       <div className="bg-gray-200 h-60 mb-6 flex items-center justify-center overflow-hidden">
-                        {digerProje.image && digerProje.image !== "/projeler/proje1.jpg" ? (
+                        {digerProje.image ? (
                           <Image
                             src={digerProje.image}
                             alt={digerProje.title}
