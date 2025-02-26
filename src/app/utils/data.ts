@@ -57,7 +57,7 @@ export const projeler: Proje[] = [
 ÇEKÜL Vakfı ile iş birliği içinde yürütülen çalışmada, temel hedef yapıların orijinal dokusunu koruyarak Tirilye'nin eşsiz kimliğini yaşatmaktı. Zeytin bahçeleri ve denizin kucaklaştığı bu bereketli coğrafyada, yeşil ve mavinin buluştuğu noktada yer alan evler, modern restorasyon teknikleriyle yeniden canlandırıldı. Mudanya Belediyesi'nin de destek verdiği proje, sadece fiziksel bir yenileme değil, aynı zamanda bölge halkının bu mirasa sahip çıkmasını sağlayacak bir farkındalık hareketi oldu. Yapılar, turizme kazandırılarak Tirilye'nin tarihsel ve doğal güzelliklerini ziyaretçilere sunmaya devam ediyor.
 
 Projenin bir parçası olarak, Tabut Ev ve Perili Ev'in iç ve dış mekanları 3D tarama teknolojisiyle dijital ortama aktarıldı. Bu sayede, yapıların her detayı sanal ortamda keşfedilebilir hale geldi.`,
-    iframe: `<div class="sketchfab-embed-wrapper"> <iframe title="Haunted House ( interior &amp; exterior 3d scan )" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/ffa19bcc5efa4acc9b493d28b8d151a0/embed"> </iframe> </div>`
+    iframe: `<div class="sketchfab-embed-wrapper"> <iframe title="Haunted House ( interior &amp; exterior 3d scan )" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="100%" height="600" src="https://sketchfab.com/models/ffa19bcc5efa4acc9b493d28b8d151a0/embed"> </iframe> </div>`
   },
   {
     id: 2,
@@ -77,11 +77,17 @@ Proje kapsamında çeşmenin su sistemi de yenilendi ve tekrar işlevsel hale ge
   },
   {
     id: 3,
-    title: "Proje 3",
-    description: "Proje 3 açıklaması.",
-    year: "2018",
+    title: "3D Fotogrametri Projesi",
+    description: "Tarihi yapıların 3D fotogrametri teknolojisi ile belgelenmesi ve dijital arşivlenmesi çalışması.",
+    year: "2023",
     location: "İstanbul",
-    image: "/projeler/proje3.jpg"
+    image: "/projeler/proje3.jpg",
+    detailDescription: `3D fotogrametri teknolojisi kullanılarak gerçekleştirilen bu projede, tarihi yapıların detaylı belgelenmesi ve dijital ortamda arşivlenmesi amaçlanmıştır. Yüksek çözünürlüklü fotoğraflar ve gelişmiş yazılımlar kullanılarak yapının her detayı hassas bir şekilde 3 boyutlu modele aktarılmıştır.
+
+Bu teknoloji sayesinde, yapının mevcut durumu, malzeme özellikleri ve yapısal detayları milimetrik hassasiyetle belgelenmiştir. Oluşturulan 3D model, restorasyon çalışmalarında referans olarak kullanılabilecek ve gelecek nesillere aktarılabilecek bir dijital arşiv niteliğindedir.
+
+Proje kapsamında yapının dış cephesi ve iç mekanları detaylı olarak taranmış, elde edilen veriler işlenerek yüksek kaliteli bir 3D model oluşturulmuştur. Bu model üzerinden yapının her açıdan incelenmesi, kesit ve görünüşlerinin alınması mümkün hale gelmiştir.`,
+    iframe: `<iframe src="https://cloud.agisoft.com/embedded/projects/37a47445-c16c-45c1-955a-d3f701ff0c2d/25040ea5-2847-4177-b786-a1fc1739854b/?autoplay=1&name=1&mode=Full&position=-105.49448,39.503638,2628.513929&orientation=42.472,-37.374,0" width="100%" height="600" allow="clipboard-write" allowfullscreen="allowfullscreen" style="border: 0" title="03"></iframe>`
   },
   {
     id: 4,

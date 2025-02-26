@@ -36,13 +36,11 @@ export default function ProjeDetayClient({ proje, whatsappUrl }: ProjeDetayClien
               <div className="mb-16">
                 <h2 className="text-2xl font-light mb-6">3D MODEL GÖRÜNTÜSÜ</h2>
                 <div 
-                  className="w-full aspect-[4/1] rounded-lg overflow-hidden"
-                  style={{ background: 'none' }}
+                  className="w-full rounded-lg overflow-hidden"
+                  style={{ background: 'none', height: '600px' }}
                 >
                   <div className="w-full h-full" dangerouslySetInnerHTML={{ 
                     __html: proje.iframe
-                      .replace('<iframe', '<iframe style="width: 100%; height: 100%; border: none; background: none !important;"')
-                      .replace('</iframe>', '</iframe>') 
                   }} />
                 </div>
               </div>
